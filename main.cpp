@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main() { 
-    cout << "Hello, world!" << endl;
-    return 0; 
+int abs() {
+	int a;
+	cin >> a;
+	if (a > 0) {
+		cout << a;
+	} 
+	if (a < 0){
+		cout << -a;
+	}
+	else {
+		cout << 0;
+	}
 }
