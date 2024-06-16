@@ -7,7 +7,7 @@ int abs() {
 	if (a > 0) {
 		cout << a;
 	} 
-	if (a < 0){
+	else if (a < 0){ // like elif
 		cout << -a;
 	}
 	else {
